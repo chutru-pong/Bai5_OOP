@@ -2,7 +2,7 @@ using System;
  
 namespace DeviceManagement
 {
-    public class Computer : Device
+    public class Computer : Device, INetworkable
     {
 
         private int ramGB;
@@ -32,5 +32,28 @@ namespace DeviceManagement
         {
             return base.ToString() + " - RAM: " + ramGB + "GB - CPU: " + cpuType + " - Đồ họa rời: " + dedicatedGPU;
         }
+
+
+        private string ipAddress = "";
+        private bool isConnected = false;
+
+        public string IpAddress => ipAddress;
+        public bool IsConnected => isConnected;
+
+
+        public void Connect(string ipAddress)
+        {
+            this.ipAddress = ipAddress;
+            this.isConnected = true;
+        }
+
+        public void Disconnect()
+        {
+            this.ipAddress = "";
+            this.isConnected = false;
+        }
+
+
+        
     }
 }
