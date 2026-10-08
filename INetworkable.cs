@@ -4,9 +4,9 @@ namespace DeviceManagement
 {
     public interface INetworkable
     {
-        string IpAddress {get; }
-        bool IsConnected {get; }
-        void Connect(string IpAddress);
-        void DisConnect();
+        string IpAddress { get; }
+        bool IsConnected { get; }
+        void Connect(string ipAddress);
+        void Disconnect();
     }
 }
