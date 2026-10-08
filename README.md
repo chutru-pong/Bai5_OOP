@@ -164,5 +164,6 @@ Thực hiện lần lượt các thao tác kiểm thử:
 - [x] **7. Đa hình Interface:** Duyệt và kiểm tra trạng thái các thiết bị mạng thông qua kiểu `INetworkable` mà không phụ thuộc vào lớp cụ thể.
 
 ## 7. Biểu đồ lớp 
-<img width="2130" height="971" alt="image" src="https://github.com/user-attachments/assets/028dec17-2cd1-4a30-a131-1bd45ee87fe4" />
+<img width="2130" height="922" alt="image" src="https://github.com/user-attachments/assets/b7a822e4-87a2-4e8a-9e2e-976ab339a510" />
+
 
